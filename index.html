@@ -3,9 +3,237 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/src/style.css" rel="stylesheet" />
+    <link href="./src/style.css" rel="stylesheet" />
   </head>
-  <body>
-    <h1 class="text-3xl font-bold underline">Hqsdqsello world!</h1>
+  <body class="bg-bg text-fg grid min-h-screen place-items-center p-4">
+
+    <header class="grid grid-cols-1 text-white bg-background min-h-screen py-8 px-4">
+
+
+      <!-- Section logo + icônes + image -->
+      <section class="flex flex-col items-center space-y-4">
+        <h2 class="text-xl font-bold tracking-wide">adamkeyes</h2>
+    
+        <ul class="flex space-x-6">
+          <li><img src="/src/assets/Icons/icon-github.svg" alt="GitHub"></li>
+          <li><img src="/src/assets/Icons/icon-frontend-mentor.svg" alt="Frontend Mentor"></li>
+          <li><img src="/src/assets/Icons/icon-linkedin.svg" alt="LinkedIn"></li>
+          <li><img src="/src/assets/Icons/icon-twitter.svg" alt="Twitter"></li>
+        </ul>
+    
+        <img 
+          class="w-2/3 max-w-xs rounded-md mt-4" 
+          src="/src/assets/Profile/image-profile-mobile.webp" 
+          alt="Adam Keyes"
+        />
+      </section>
+    
+      <!-- Section texte + bouton -->
+      <section class="mt-10 text-center px-4">
+        <h1 class="text-3xl font-extrabold leading-snug mb-4">
+          Nice to meet you! <br>
+          I’m <span class="underline decoration-green-500 underline-offset-4">Adam Keyes.</span>
+        </h1>
+    
+        <p class="text-gray-300 max-w-md mx-auto leading-relaxed mb-6">
+          Based in the UK, I’m a front-end developer passionate about building accessible web apps that users love.
+        </p>
+    
+        <button class="text-green-500 font-semibold uppercase border-b-2 border-green-500 pb-1">Contact Me</button>
+      </section>
+    </header>
+      <section class="skills-section grid grid-cols-1 sm:grid-cols-2 gap-6 text-white text-center py-10">
+        <ul class="bg-dark-blue p-6 rounded-lg shadow-md">
+          <li class="text-2xl font-semibold">HTML</li>
+          <li class="text-gray-400 mt-2">4 Years Experience</li>
+        </ul>
+        <ul class="bg-dark-blue p-6 rounded-lg shadow-md">
+          <li class="text-2xl font-semibold">CSS</li>
+          <li class="text-gray-400 mt-2">4 Years Experience</li>
+        </ul>
+        <ul class="bg-dark-blue p-6 rounded-lg shadow-md">
+          <li class="text-2xl font-semibold">JavaScript</li>
+          <li class="text-gray-400 mt-2">4 Years Experience</li>
+        </ul>
+        <ul class="bg-dark-blue p-6 rounded-lg shadow-md">
+          <li class="text-2xl font-semibold">Accessibility</li>
+          <li class="text-gray-400 mt-2">4 Years Experience</li>
+        </ul>
+        <ul class="bg-dark-blue p-6 rounded-lg shadow-md">
+          <li class="text-2xl font-semibold">TailwindCSS</li>
+          <li class="text-gray-400 mt-2">3 Years Experience</li>
+        </ul>
+        <ul class="bg-dark-blue p-6 rounded-lg shadow-md">
+          <li class="text-2xl font-semibold">Sass</li>
+          <li class="text-gray-400 mt-2">3 Years Experience</li>
+        </ul>
+      </section>
+      <section class="text-white">
+        <h1 class="text-4xl font-bold text-center mb-2">Projects</h1>
+        <button class="text-center mb-10 text-green-500 font-semibold uppercase tracking-wide border-b-2 border-green-500">Contact Me</button>
+          <img 
+            class="w-full mb-2" 
+            src="/src/assets/Projects/thumbnail-project-1-small.webp" 
+            alt="Design Portfolio Project"
+          />
+          <h2 class="text-xl font-bold mb-2">DESIGN PORTFOLIO</h2>
+          <ul class="flex space-x-4 text-gray-400 mb-4">
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+          <ul class="flex space-x-6">
+            <li>
+              <button class="text-green-500 font-semibold uppercase border-b-2 border-green-500 pb-2">View Project</button>
+            </li>
+            <li>
+              <button class="text-green-500 font-semibold uppercase border-b-2 border-green-500 pb-2">View Code</button>
+            </li>
+          </ul>
+      </section>
+      <section class="py-8 text-white">
+          <img 
+            class="w-full mb-2" 
+            src="/src/assets/Projects/thumbnail-project-2-small.webp" 
+            alt="Design Portfolio Project"
+          />
+          <h2 class="text-xl font-bold mb-2">E-LEARNING LANDING PAGE</h2>
+          <ul class="flex space-x-4 text-gray-400 mb-4">
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+          <ul class="flex space-x-6">
+            <li>
+              <button class="text-green-500 font-semibold uppercase border-b-2 border-green-500 pb-2">View Project</button>
+            </li>
+            <li>
+              <button class="text-green-500 font-semibold uppercase border-b-2 border-green-500 pb-2">View Code</button>
+            </li>
+          </ul>
+      </section>
+      <section class="py-8 text-white">
+        <img 
+          class="w-full mb-2" 
+          src="/src/assets/Projects/thumbnail-project-3-small.webp" 
+          alt="Design Portfolio Project"
+        />
+        <h2 class="text-xl font-bold mb-2">TODO WEB APP</h2>
+        <ul class="flex space-x-4 text-gray-400 mb-4">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JAVASCRIPT</li>
+        </ul>
+        <ul class="flex space-x-6">
+          <li>
+            <button class="text-green-500 font-semibold uppercase border-b-2 border-green-500 pb-2">View Project</button>
+          </li>
+          <li>
+            <button class="text-green-500 font-semibold uppercase border-b-2 border-green-500 pb-2">View Code</button>
+          </li>
+        </ul>
+      </section>
+      <section class="py-8 text-white">
+        <img 
+          class="w-full mb-2" 
+          src="/src/assets/Projects/thumbnail-project-4-small.webp" 
+          alt="Design Portfolio Project"
+        />
+        <h2 class="text-xl font-bold mb-2">ENTERTAINEMENT WEB APP</h2>
+        <ul class="flex space-x-4 text-gray-400 mb-4">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JAVASCRIPT</li>
+        </ul>
+        <ul class="flex space-x-6">
+          <li>
+            <button class="text-green-500 font-semibold uppercase border-b-2 border-green-500 pb-2">View Project</button>
+          </li>
+          <li>
+            <button class="text-green-500 font-semibold uppercase border-b-2 border-green-500 pb-2">View Code</button>
+          </li>
+        </ul>
+      </section>
+      <section class="py-8 text-white">
+        <img 
+          class="w-full mb-2" 
+          src="/src/assets/Projects/thumbnail-project-5-small.webp" 
+          alt="Design Portfolio Project"
+        />
+        <h2 class="text-xl font-bold mb-2">MEMORY GAME</h2>
+        <ul class="flex space-x-4 text-gray-400 mb-4">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JAVASCRIPT</li>
+        </ul>
+        <ul class="flex space-x-6">
+          <li>
+            <button class="text-green-500 font-semibold uppercase border-b-2 border-green-500 pb-2">View Project</button>
+          </li>
+          <li>
+            <button class="text-green-500 font-semibold uppercase border-b-2 border-green-500 pb-2">View Code</button>
+          </li>
+        </ul>
+      </section>
+      <section class="py-8 text-white">
+        <img 
+          class="w-full mb-2" 
+          src="/src/assets/Projects/thumbnail-project-6-small.webp" 
+          alt="Design Portfolio Project"
+        />
+        <h2 class="text-xl font-bold mb-2">ART GALLERY SHOWCASE</h2>
+        <ul class="flex space-x-4 text-gray-400 mb-4">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JAVASCRIPT</li>
+        </ul>
+        <ul class="flex space-x-6">
+          <li>
+            <button class="text-green-500 font-semibold uppercase border-b-2 border-green-500 pb-2">View Project</button>
+          </li>
+          <li>
+            <button class="text-green-500 font-semibold uppercase border-b-2 border-green-500 pb-2">View Code</button>
+          </li>
+        </ul>
+      </section>
+
+      <!-- SECTION CONTACT -->
+
+      <section class="max-w-4xl mx-auto py-12 px-6 bg-gray-800 text-white">
+        <h1 class="text-4xl font-bold mb-4">Contact</h1>
+        <p class="text-lg mb-8">I would love to hear about your project and how I could help. Please fill in the form, and I'll get back to you as soon as possible.</p>
+      
+        <form action="#" method="POST" class="space-y-6">
+          <div>
+            <label for="name" class="block text-xl font-semibold mb-2">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required class="w-full p-3 bg-gray-900 border border-gray-700 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-green-500">
+          </div>
+          
+          <div>
+            <label for="email" class="block text-xl font-semibold mb-2">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required class="w-full p-3 bg-gray-900 border border-gray-700 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-green-500">
+          </div>
+          
+          <div>
+            <label for="message" class="block text-xl font-semibold mb-2">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Your Message" required class="w-full p-3 bg-gray-900 border border-gray-700 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-green-500"></textarea>
+          </div>
+          
+          <button type="submit" class="text-green-500 font-semibold uppercase border-b-2 border-green-500 pb-2">SEND MESSAGE</button>
+        </form>
+        <footer class="py-12 text-white">
+          <h2 class="text-xl font-bold mb-4">adamkeyes</h2>
+          
+          <ul class="flex space-x-6">
+            <li><a href="https://github.com" target="_blank"><img src="/src/assets/Icons/icon-github.svg" alt="GitHub" class="w-6 h-6"></a></li>
+            <li><a href="https://www.frontendmentor.io" target="_blank"><img src="/src/assets/Icons/icon-frontend-mentor.svg" alt="Frontend Mentor" class="w-6 h-6"></a></li>
+            <li><a href="https://www.linkedin.com" target="_blank"><img src="/src/assets/Icons/icon-linkedin.svg" alt="LinkedIn" class="w-6 h-6"></a></li>
+            <li><a href="https://twitter.com" target="_blank"><img src="/src/assets/Icons/icon-twitter.svg" alt="Twitter" class="w-6 h-6"></a></li>
+          </ul>
+        </footer>
+      
+      </section>
+      
+      
+
+   
   </body>
 </html>
