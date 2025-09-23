@@ -40,35 +40,39 @@
         </p>
     
         <button class="text-green-500 font-semibold uppercase border-b-2 border-green-500 pb-1">Contact Me</button>
+        <hr class="mt-25">
+
       </section>
     </header>
       <section class="skills-section grid grid-cols-1 sm:grid-cols-2 gap-6 text-white text-center py-10">
-        <ul class="bg-dark-blue p-6 rounded-lg shadow-md">
+        <ul class="bg-dark-blue rounded-lg shadow-md">
           <li class="text-2xl font-semibold">HTML</li>
           <li class="text-gray-400 mt-2">4 Years Experience</li>
         </ul>
-        <ul class="bg-dark-blue p-6 rounded-lg shadow-md">
+        <ul class="bg-dark-blue rounded-lg shadow-md">
           <li class="text-2xl font-semibold">CSS</li>
           <li class="text-gray-400 mt-2">4 Years Experience</li>
         </ul>
-        <ul class="bg-dark-blue p-6 rounded-lg shadow-md">
+        <ul class="bg-dark-blue rounded-lg shadow-md">
           <li class="text-2xl font-semibold">JavaScript</li>
           <li class="text-gray-400 mt-2">4 Years Experience</li>
         </ul>
-        <ul class="bg-dark-blue p-6 rounded-lg shadow-md">
+        <ul class="bg-dark-blue rounded-lg shadow-md">
           <li class="text-2xl font-semibold">Accessibility</li>
           <li class="text-gray-400 mt-2">4 Years Experience</li>
         </ul>
-        <ul class="bg-dark-blue p-6 rounded-lg shadow-md">
+        <ul class="bg-dark-blue  rounded-lg shadow-md">
           <li class="text-2xl font-semibold">TailwindCSS</li>
           <li class="text-gray-400 mt-2">3 Years Experience</li>
         </ul>
-        <ul class="bg-dark-blue p-6 rounded-lg shadow-md">
+        <ul class="bg-dark-blue rounded-lg shadow-md">
           <li class="text-2xl font-semibold">Sass</li>
           <li class="text-gray-400 mt-2">3 Years Experience</li>
         </ul>
       </section>
+    
       <section class="text-white">
+        <hr class="mb-25">
         <h1 class="text-4xl font-bold text-center mb-2">Projects</h1>
         <button class="text-center mb-10 text-green-500 font-semibold uppercase tracking-wide border-b-2 border-green-500">Contact Me</button>
           <img 
@@ -90,6 +94,7 @@
             </li>
           </ul>
       </section>
+
       <section class="py-8 text-white">
           <img 
             class="w-full mb-2" 
@@ -131,6 +136,7 @@
           </li>
         </ul>
       </section>
+      
       <section class="py-8 text-white">
         <img 
           class="w-full mb-2" 
@@ -197,32 +203,33 @@
 
       <!-- SECTION CONTACT -->
 
-      <section class="max-w-4xl mx-auto py-12 px-6 bg-gray-800 text-white">
+      <section class="py-12 px-6 bg-gray-800 text-white">
         <h1 class="text-4xl font-bold mb-4">Contact</h1>
         <p class="text-lg mb-8">I would love to hear about your project and how I could help. Please fill in the form, and I'll get back to you as soon as possible.</p>
       
         <form action="#" method="POST" class="space-y-6">
-          <div>
+          <section>
             <label for="name" class="block text-xl font-semibold mb-2">Name</label>
-            <input type="text" id="name" name="name" placeholder="Your Name" required class="w-full p-3 bg-gray-900 border border-gray-700 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-green-500">
-          </div>
+            <input type="text" id="name" name="name" placeholder="" required class="w-full p-3 border-gray-700 border-b-2  text-white focus:outline-none focus:ring-2 focus:ring-green-500">
+          </section>
           
-          <div>
+          <section>
             <label for="email" class="block text-xl font-semibold mb-2">Email</label>
-            <input type="email" id="email" name="email" placeholder="Your Email" required class="w-full p-3 bg-gray-900 border border-gray-700 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-green-500">
-          </div>
+            <input type="email" id="email" name="email" placeholder="" required class="w-full p-3 border-b-2 border-gray-700  text-white focus:outline-none focus:ring-2 focus:ring-green-500">
+          </section>
           
-          <div>
+          <section>
             <label for="message" class="block text-xl font-semibold mb-2">Message</label>
-            <textarea id="message" name="message" rows="4" placeholder="Your Message" required class="w-full p-3 bg-gray-900 border border-gray-700 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-green-500"></textarea>
-          </div>
-          
-          <button type="submit" class="text-green-500 font-semibold uppercase border-b-2 border-green-500 pb-2">SEND MESSAGE</button>
+            <textarea id="message" name="message" rows="4" placeholder="" required class="w-full p-3 border-b-2 border-gray-700  text-white focus:outline-none focus:ring-2 focus:ring-green-500"></textarea>
+          </section>
+          <section class="text-end">
+            <button type="submit" class="text-green-500 font-semibold uppercase border-b-2 border-green-500 pb-2">SEND MESSAGE</button>
+          </section>
         </form>
-        <footer class="py-12 text-white">
-          <h2 class="text-xl font-bold mb-4">adamkeyes</h2>
+        <footer class="flex justify-between pt-20 text-white">
+          <h2 class="text-xl font-bold">adamkeyes</h2>
           
-          <ul class="flex space-x-6">
+          <ul class="flex space-x-4">
             <li><a href="https://github.com" target="_blank"><img src="/assets/Icons/icon-github.svg" alt="GitHub" class="w-6 h-6"></a></li>
             <li><a href="https://www.frontendmentor.io" target="_blank"><img src="/assets/Icons/icon-frontend-mentor.svg" alt="Frontend Mentor" class="w-6 h-6"></a></li>
             <li><a href="https://www.linkedin.com" target="_blank"><img src="/assets/Icons/icon-linkedin.svg" alt="LinkedIn" class="w-6 h-6"></a></li>
